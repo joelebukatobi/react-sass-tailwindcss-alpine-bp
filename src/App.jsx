@@ -2,9 +2,10 @@
 
 const App = () => {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <section className="flex flex-col h-[100vh] w-[100vw] justify-center items-center">
+      <h1 className="text-xl font-bold">Hello World</h1>
+      <p>A SCSS, TailwindCSS, Alpine, React and Vite Boilerplate</p>
+    </section>
   );
 };
 
